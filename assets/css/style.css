@@ -7,14 +7,21 @@ body {
 }
 
 h1,
-h2 {
+h2 { 
     color: darkred;
+    
+
 }
 
-h3, 
+ h3, .service {
+    display: inline-block;
+    text-align: center;
+}
 p,
 li {
     color: green;
+    display: inline-block;
+    text-align: center;
 }
 
 img {
@@ -33,12 +40,13 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    display: inline-block ;
     text-align: center;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
+    text-align: center;
 }
 
 nav a {
@@ -75,12 +83,12 @@ nav a:hover {
 }
 
 table {
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     width: 100%;
 }
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     padding: 5px;
 }
